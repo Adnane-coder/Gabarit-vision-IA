@@ -1,0 +1,58 @@
+{
+  "Tracee1": {
+    "pieces_detectees_baseline": 18,
+    "pieces_reelles_texte": 25,
+    "calibration_carte_trouvee": true,
+    "image_shape": [
+      2478,
+      4000,
+      3
+    ],
+    "taille_physique_reelle_cm": [
+      202.81392537434897,
+      125.63347703721789
+    ]
+  },
+  "Tracee2": {
+    "pieces_detectees_baseline": 70,
+    "pieces_reelles_texte": 40,
+    "calibration_carte_trouvee": true,
+    "image_shape": [
+      2417,
+      4000,
+      3
+    ],
+    "taille_physique_reelle_cm": [
+      252.0060993109809,
+      152.27029215494792
+    ]
+  },
+  "Tracee3": {
+    "pieces_detectees_baseline": 33,
+    "pieces_reelles_texte": 19,
+    "calibration_carte_trouvee": true,
+    "image_shape": [
+      4000,
+      3196,
+      3
+    ],
+    "taille_physique_reelle_cm": [
+      128.3207979329427,
+      160.6396693250868
+    ]
+  },
+  "Tracee4": {
+    "pieces_detectees_baseline": 66,
+    "pieces_reelles_texte": 35,
+    "calibration_carte_trouvee": true,
+    "image_shape": [
+      4000,
+      3965,
+      3
+    ],
+    "taille_physique_reelle_cm": [
+      147.3326951768663,
+      148.63817966037325
+    ]
+  }
+}

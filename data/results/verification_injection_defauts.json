@@ -1,0 +1,19 @@
+{
+  "tracee_test": "Tracee1",
+  "piece_cible": "M0YA44-LBACK10",
+  "test_1_piece_manquante": {
+    "attendu": "MANQUANTE",
+    "obtenu": "MANQUANTE",
+    "resultat": "PASS"
+  },
+  "test_2_surdimensionnee": {
+    "attendu": "NON CONFORME",
+    "obtenu": "NON CONFORME",
+    "resultat": "PASS"
+  },
+  "test_3_sous_dimensionnee": {
+    "attendu": "NON CONFORME",
+    "obtenu": "NON CONFORME",
+    "resultat": "PASS"
+  }
+}

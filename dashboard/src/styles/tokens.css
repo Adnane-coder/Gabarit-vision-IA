@@ -1,0 +1,21 @@
+:root {
+  /* Base */
+  --bg: #f4f1ea;
+  --surface: #fffefb;
+  --surface-sunken: #ece6d8;
+  --border: #e0d9c9;
+  --text: #35302a;
+  --text-muted: #8a8074;
+
+  /* Accent (taupe) */
+  --accent: #8c7b63;
+  --accent-soft: #ece3d3;
+
+  /* Status */
+  --success: #6f8c66;
+  --success-soft: #e6ecdf;
+  --warning: #b9903f;
+  --warning-soft: #f2e8d3;
+  --error: #b16249;
+  --error-soft: #f2e0d8;
+}

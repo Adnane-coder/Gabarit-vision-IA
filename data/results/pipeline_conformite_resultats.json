@@ -1,0 +1,2833 @@
+{
+  "Tracee1": {
+    "tracee": "Tracee1",
+    "code_modele": "157380CD-PDF",
+    "checkpoint_utilise": "..\\models\\saved\\unet_fold_Tracee1_best.pt",
+    "n_pieces_reference": 25,
+    "n_conformes": 15,
+    "n_non_conformes": 10,
+    "n_manquantes": 0,
+    "n_inattendues": 8,
+    "taux_conformite_global": 0.6,
+    "temps_total_s": 6.94,
+    "rapport_detaille": [
+      {
+        "piece_reference": "M0YA44-FLY",
+        "largeur_attendue_cm": 19.93,
+        "hauteur_attendue_cm": 6.49,
+        "largeur_mesuree_cm": 19.87,
+        "hauteur_mesuree_cm": 6.34,
+        "erreur_cm": 0.15,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          347,
+          2229,
+          392,
+          125
+        ]
+      },
+      {
+        "piece_reference": "TRUEREGULAR1-BACK PCKT",
+        "largeur_attendue_cm": 21.77,
+        "hauteur_attendue_cm": 20.58,
+        "largeur_mesuree_cm": 21.55,
+        "hauteur_mesuree_cm": 20.43,
+        "erreur_cm": 0.22,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          846,
+          1952,
+          425,
+          403
+        ]
+      },
+      {
+        "piece_reference": "M0YA44-LBACK10",
+        "largeur_attendue_cm": 112.96,
+        "hauteur_attendue_cm": 48.2,
+        "largeur_mesuree_cm": 112.76,
+        "hauteur_mesuree_cm": 47.96,
+        "erreur_cm": 0.24,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          143,
+          793,
+          2224,
+          946
+        ]
+      },
+      {
+        "piece_reference": "FACING-04 CHAD-RIGHT",
+        "largeur_attendue_cm": 16.88,
+        "hauteur_attendue_cm": 19.98,
+        "largeur_mesuree_cm": 16.63,
+        "hauteur_mesuree_cm": 19.82,
+        "erreur_cm": 0.25,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          312,
+          1814,
+          328,
+          391
+        ]
+      },
+      {
+        "piece_reference": "CHAD-COIN PCKT-05",
+        "largeur_attendue_cm": 13.28,
+        "hauteur_attendue_cm": 12.37,
+        "largeur_mesuree_cm": 13.13,
+        "hauteur_mesuree_cm": 12.12,
+        "erreur_cm": 0.25,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          635,
+          1761,
+          259,
+          239
+        ]
+      },
+      {
+        "piece_reference": "M0YA44-UNDERFLY",
+        "largeur_attendue_cm": 21.55,
+        "hauteur_attendue_cm": 12.47,
+        "largeur_mesuree_cm": 21.29,
+        "hauteur_mesuree_cm": 12.32,
+        "erreur_cm": 0.26,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          985,
+          649,
+          420,
+          243
+        ]
+      },
+      {
+        "piece_reference": "TRUEREGULAR1-BACK PCKT",
+        "largeur_attendue_cm": 21.77,
+        "hauteur_attendue_cm": 20.58,
+        "largeur_mesuree_cm": 21.5,
+        "hauteur_mesuree_cm": 20.38,
+        "erreur_cm": 0.27,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          2390,
+          1228,
+          424,
+          402
+        ]
+      },
+      {
+        "piece_reference": "M0YA44-LBACK10",
+        "largeur_attendue_cm": 112.96,
+        "hauteur_attendue_cm": 48.2,
+        "largeur_mesuree_cm": 112.76,
+        "hauteur_mesuree_cm": 47.91,
+        "erreur_cm": 0.29,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          1514,
+          1446,
+          2224,
+          945
+        ]
+      },
+      {
+        "piece_reference": "FACING-03 CHAD-LEFT PATCH",
+        "largeur_attendue_cm": 16.83,
+        "hauteur_attendue_cm": 20.08,
+        "largeur_mesuree_cm": 16.63,
+        "hauteur_mesuree_cm": 19.77,
+        "erreur_cm": 0.31,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          143,
+          688,
+          328,
+          390
+        ]
+      },
+      {
+        "piece_reference": "YOKE CHAD-BACK",
+        "largeur_attendue_cm": 9.53,
+        "hauteur_attendue_cm": 30.22,
+        "largeur_mesuree_cm": 9.13,
+        "hauteur_mesuree_cm": 29.86,
+        "erreur_cm": 0.4,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          1294,
+          1765,
+          180,
+          589
+        ]
+      },
+      {
+        "piece_reference": "CHAD-WB",
+        "largeur_attendue_cm": 11.91,
+        "hauteur_attendue_cm": 120.26,
+        "largeur_mesuree_cm": 11.56,
+        "hauteur_mesuree_cm": 119.86,
+        "erreur_cm": 0.4,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          3761,
+          89,
+          228,
+          2364
+        ]
+      },
+      {
+        "piece_reference": "M0YA44-LFRONT01",
+        "largeur_attendue_cm": 112.86,
+        "hauteur_attendue_cm": 36.66,
+        "largeur_mesuree_cm": 112.56,
+        "hauteur_mesuree_cm": 36.05,
+        "erreur_cm": 0.61,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          1517,
+          539,
+          2220,
+          711
+        ]
+      },
+      {
+        "piece_reference": "M0YA44-",
+        "largeur_attendue_cm": 113.32,
+        "hauteur_attendue_cm": 36.3,
+        "largeur_mesuree_cm": 112.46,
+        "hauteur_mesuree_cm": 36.05,
+        "erreur_cm": 0.86,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          143,
+          12,
+          2218,
+          711
+        ]
+      },
+      {
+        "piece_reference": "PATCH",
+        "largeur_attendue_cm": 4.9,
+        "hauteur_attendue_cm": 4.85,
+        "largeur_mesuree_cm": 5.48,
+        "hauteur_mesuree_cm": 3.8,
+        "erreur_cm": 1.05,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          133,
+          1,
+          108,
+          75
+        ]
+      },
+      {
+        "piece_reference": "PATCH PATCH",
+        "largeur_attendue_cm": 5.07,
+        "hauteur_attendue_cm": 4.87,
+        "largeur_mesuree_cm": 5.63,
+        "hauteur_mesuree_cm": 6.49,
+        "erreur_cm": 1.62,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          193,
+          140,
+          111,
+          128
+        ]
+      },
+      {
+        "piece_reference": "PATCH",
+        "largeur_attendue_cm": 4.9,
+        "hauteur_attendue_cm": 4.85,
+        "largeur_mesuree_cm": 9.48,
+        "hauteur_mesuree_cm": 3.14,
+        "erreur_cm": 4.58,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          197,
+          2312,
+          187,
+          62
+        ]
+      },
+      {
+        "piece_reference": "PATCH",
+        "largeur_attendue_cm": 4.9,
+        "hauteur_attendue_cm": 4.85,
+        "largeur_mesuree_cm": 10.04,
+        "hauteur_mesuree_cm": 10.39,
+        "erreur_cm": 5.54,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          640,
+          1998,
+          198,
+          205
+        ]
+      },
+      {
+        "piece_reference": "PATCH",
+        "largeur_attendue_cm": 4.9,
+        "hauteur_attendue_cm": 4.85,
+        "largeur_mesuree_cm": 10.95,
+        "hauteur_mesuree_cm": 7.3,
+        "erreur_cm": 6.05,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          133,
+          586,
+          216,
+          144
+        ]
+      },
+      {
+        "piece_reference": "PATCH",
+        "largeur_attendue_cm": 4.9,
+        "hauteur_attendue_cm": 4.85,
+        "largeur_mesuree_cm": 6.29,
+        "hauteur_mesuree_cm": 11.91,
+        "erreur_cm": 7.06,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          516,
+          655,
+          124,
+          235
+        ]
+      },
+      {
+        "piece_reference": "PATCH",
+        "largeur_attendue_cm": 4.9,
+        "hauteur_attendue_cm": 4.85,
+        "largeur_mesuree_cm": 5.98,
+        "hauteur_mesuree_cm": 13.28,
+        "erreur_cm": 8.43,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          468,
+          717,
+          118,
+          262
+        ]
+      },
+      {
+        "piece_reference": "PATCH",
+        "largeur_attendue_cm": 4.9,
+        "hauteur_attendue_cm": 4.85,
+        "largeur_mesuree_cm": 5.17,
+        "hauteur_mesuree_cm": 13.59,
+        "erreur_cm": 8.74,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          132,
+          50,
+          102,
+          268
+        ]
+      },
+      {
+        "piece_reference": "PATCH",
+        "largeur_attendue_cm": 4.9,
+        "hauteur_attendue_cm": 4.85,
+        "largeur_mesuree_cm": 14.5,
+        "hauteur_mesuree_cm": 8.26,
+        "erreur_cm": 9.6,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          295,
+          2147,
+          286,
+          163
+        ]
+      },
+      {
+        "piece_reference": "CHAD-BACK",
+        "largeur_attendue_cm": 9.33,
+        "hauteur_attendue_cm": 30.47,
+        "largeur_mesuree_cm": 3.35,
+        "hauteur_mesuree_cm": 19.82,
+        "erreur_cm": 10.65,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          1232,
+          1983,
+          66,
+          391
+        ]
+      },
+      {
+        "piece_reference": "PATCH",
+        "largeur_attendue_cm": 4.9,
+        "hauteur_attendue_cm": 4.85,
+        "largeur_mesuree_cm": 4.46,
+        "hauteur_mesuree_cm": 16.07,
+        "erreur_cm": 11.22,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          133,
+          798,
+          88,
+          317
+        ]
+      },
+      {
+        "piece_reference": "PASSANT",
+        "largeur_attendue_cm": 98.61,
+        "hauteur_attendue_cm": 4.01,
+        "largeur_mesuree_cm": 73.31,
+        "hauteur_mesuree_cm": 34.48,
+        "erreur_cm": 30.47,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          856,
+          1695,
+          1446,
+          680
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 19.22,
+        "hauteur_mesuree_cm": 2.84,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          816,
+          2319,
+          379,
+          56
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 1.62,
+        "hauteur_mesuree_cm": 16.99,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          133,
+          2039,
+          32,
+          335
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 7.66,
+        "hauteur_mesuree_cm": 16.78,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          741,
+          2021,
+          151,
+          331
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 17.49,
+        "hauteur_mesuree_cm": 5.12,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          2369,
+          1608,
+          345,
+          101
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 0.81,
+        "hauteur_mesuree_cm": 17.8,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          2370,
+          1253,
+          16,
+          351
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 36.05,
+        "hauteur_mesuree_cm": 59.93,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          133,
+          1172,
+          711,
+          1182
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 168.63,
+        "hauteur_mesuree_cm": 124.93,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          672,
+          0,
+          3326,
+          2464
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 202.81,
+        "hauteur_mesuree_cm": 125.64,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          0,
+          0,
+          4000,
+          2478
+        ]
+      }
+    ]
+  },
+  "Tracee2": {
+    "tracee": "Tracee2",
+    "code_modele": "02110170811CD-A",
+    "checkpoint_utilise": "..\\models\\saved\\unet_fold_Tracee2_best.pt",
+    "n_pieces_reference": 40,
+    "n_conformes": 28,
+    "n_non_conformes": 12,
+    "n_manquantes": 0,
+    "n_inattendues": 10,
+    "taux_conformite_global": 0.7,
+    "temps_total_s": 5.95,
+    "rapport_detaille": [
+      {
+        "piece_reference": "REH",
+        "largeur_attendue_cm": 8.63,
+        "hauteur_attendue_cm": 27.88,
+        "largeur_mesuree_cm": 8.51,
+        "hauteur_mesuree_cm": 27.78,
+        "erreur_cm": 0.12,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          444,
+          1113,
+          135,
+          441
+        ]
+      },
+      {
+        "piece_reference": "REH",
+        "largeur_attendue_cm": 8.63,
+        "hauteur_attendue_cm": 27.88,
+        "largeur_mesuree_cm": 8.51,
+        "hauteur_mesuree_cm": 27.78,
+        "erreur_cm": 0.12,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          144,
+          28,
+          135,
+          441
+        ]
+      },
+      {
+        "piece_reference": "SP",
+        "largeur_attendue_cm": 18.93,
+        "hauteur_attendue_cm": 11.78,
+        "largeur_mesuree_cm": 18.77,
+        "hauteur_mesuree_cm": 11.66,
+        "erreur_cm": 0.16,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          545,
+          1718,
+          298,
+          185
+        ]
+      },
+      {
+        "piece_reference": "LOW TEAR",
+        "largeur_attendue_cm": 4.6,
+        "hauteur_attendue_cm": 17.7,
+        "largeur_mesuree_cm": 4.54,
+        "hauteur_mesuree_cm": 17.51,
+        "erreur_cm": 0.19,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          3422,
+          1418,
+          72,
+          278
+        ]
+      },
+      {
+        "piece_reference": "SP",
+        "largeur_attendue_cm": 18.93,
+        "hauteur_attendue_cm": 11.78,
+        "largeur_mesuree_cm": 18.71,
+        "hauteur_mesuree_cm": 11.53,
+        "erreur_cm": 0.25,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          828,
+          1433,
+          297,
+          183
+        ]
+      },
+      {
+        "piece_reference": "PARM",
+        "largeur_attendue_cm": 14.05,
+        "hauteur_attendue_cm": 19.66,
+        "largeur_mesuree_cm": 13.8,
+        "hauteur_mesuree_cm": 19.47,
+        "erreur_cm": 0.25,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          618,
+          1406,
+          219,
+          309
+        ]
+      },
+      {
+        "piece_reference": "P DOS",
+        "largeur_attendue_cm": 19.84,
+        "hauteur_attendue_cm": 19.4,
+        "largeur_mesuree_cm": 19.66,
+        "hauteur_mesuree_cm": 19.15,
+        "erreur_cm": 0.25,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          3483,
+          1344,
+          312,
+          304
+        ]
+      },
+      {
+        "piece_reference": "PARM",
+        "largeur_attendue_cm": 14.05,
+        "hauteur_attendue_cm": 19.66,
+        "largeur_mesuree_cm": 13.86,
+        "hauteur_mesuree_cm": 19.4,
+        "erreur_cm": 0.26,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          914,
+          1122,
+          220,
+          308
+        ]
+      },
+      {
+        "piece_reference": "BRAG",
+        "largeur_attendue_cm": 17.61,
+        "hauteur_attendue_cm": 5.96,
+        "largeur_mesuree_cm": 17.33,
+        "hauteur_mesuree_cm": 5.8,
+        "erreur_cm": 0.28,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          1827,
+          1869,
+          275,
+          92
+        ]
+      },
+      {
+        "piece_reference": "BRAG",
+        "largeur_attendue_cm": 17.61,
+        "hauteur_attendue_cm": 5.96,
+        "largeur_mesuree_cm": 17.33,
+        "hauteur_mesuree_cm": 5.99,
+        "erreur_cm": 0.28,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          1769,
+          571,
+          275,
+          95
+        ]
+      },
+      {
+        "piece_reference": "REH1",
+        "largeur_attendue_cm": 8.73,
+        "hauteur_attendue_cm": 28.1,
+        "largeur_mesuree_cm": 8.44,
+        "hauteur_mesuree_cm": 27.85,
+        "erreur_cm": 0.29,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          346,
+          1072,
+          134,
+          442
+        ]
+      },
+      {
+        "piece_reference": "DOS",
+        "largeur_attendue_cm": 111.94,
+        "hauteur_attendue_cm": 45.44,
+        "largeur_mesuree_cm": 111.64,
+        "hauteur_mesuree_cm": 45.49,
+        "erreur_cm": 0.3,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          2226,
+          1666,
+          1772,
+          722
+        ]
+      },
+      {
+        "piece_reference": "DOS",
+        "largeur_attendue_cm": 111.94,
+        "hauteur_attendue_cm": 45.44,
+        "largeur_mesuree_cm": 111.64,
+        "hauteur_mesuree_cm": 45.42,
+        "erreur_cm": 0.3,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          1123,
+          1227,
+          1772,
+          721
+        ]
+      },
+      {
+        "piece_reference": "DOS",
+        "largeur_attendue_cm": 111.94,
+        "hauteur_attendue_cm": 45.44,
+        "largeur_mesuree_cm": 111.64,
+        "hauteur_mesuree_cm": 45.55,
+        "erreur_cm": 0.3,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          2023,
+          837,
+          1772,
+          723
+        ]
+      },
+      {
+        "piece_reference": "DOS",
+        "largeur_attendue_cm": 111.94,
+        "hauteur_attendue_cm": 45.44,
+        "largeur_mesuree_cm": 111.64,
+        "hauteur_mesuree_cm": 45.42,
+        "erreur_cm": 0.3,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          269,
+          27,
+          1772,
+          721
+        ]
+      },
+      {
+        "piece_reference": "P DOS",
+        "largeur_attendue_cm": 19.84,
+        "hauteur_attendue_cm": 19.4,
+        "largeur_mesuree_cm": 19.53,
+        "hauteur_mesuree_cm": 19.28,
+        "erreur_cm": 0.31,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          846,
+          1619,
+          310,
+          306
+        ]
+      },
+      {
+        "piece_reference": "LOW TEAR",
+        "largeur_attendue_cm": 4.6,
+        "hauteur_attendue_cm": 17.7,
+        "largeur_mesuree_cm": 4.35,
+        "hauteur_mesuree_cm": 17.39,
+        "erreur_cm": 0.31,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          3726,
+          1589,
+          69,
+          276
+        ]
+      },
+      {
+        "piece_reference": "DVT",
+        "largeur_attendue_cm": 110.55,
+        "hauteur_attendue_cm": 30.68,
+        "largeur_mesuree_cm": 110.19,
+        "hauteur_mesuree_cm": 30.3,
+        "erreur_cm": 0.38,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          347,
+          664,
+          1749,
+          481
+        ]
+      },
+      {
+        "piece_reference": "DVT",
+        "largeur_attendue_cm": 110.55,
+        "hauteur_attendue_cm": 30.68,
+        "largeur_mesuree_cm": 110.25,
+        "hauteur_mesuree_cm": 31.06,
+        "erreur_cm": 0.38,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          2043,
+          414,
+          1750,
+          493
+        ]
+      },
+      {
+        "piece_reference": "P TIC",
+        "largeur_attendue_cm": 12.44,
+        "hauteur_attendue_cm": 12.45,
+        "largeur_mesuree_cm": 12.03,
+        "hauteur_mesuree_cm": 12.29,
+        "erreur_cm": 0.41,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          1828,
+          1148,
+          191,
+          195
+        ]
+      },
+      {
+        "piece_reference": "P TIC",
+        "largeur_attendue_cm": 12.44,
+        "hauteur_attendue_cm": 12.45,
+        "largeur_mesuree_cm": 12.03,
+        "hauteur_mesuree_cm": 12.22,
+        "erreur_cm": 0.41,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          427,
+          535,
+          191,
+          194
+        ]
+      },
+      {
+        "piece_reference": "DVT",
+        "largeur_attendue_cm": 110.55,
+        "hauteur_attendue_cm": 30.68,
+        "largeur_mesuree_cm": 110.13,
+        "hauteur_mesuree_cm": 30.37,
+        "erreur_cm": 0.42,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          343,
+          1906,
+          1748,
+          482
+        ]
+      },
+      {
+        "piece_reference": "DVT",
+        "largeur_attendue_cm": 110.55,
+        "hauteur_attendue_cm": 30.68,
+        "largeur_mesuree_cm": 110.13,
+        "hauteur_mesuree_cm": 30.37,
+        "erreur_cm": 0.42,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          2046,
+          27,
+          1748,
+          482
+        ]
+      },
+      {
+        "piece_reference": "PARM1",
+        "largeur_attendue_cm": 14.08,
+        "hauteur_attendue_cm": 19.91,
+        "largeur_mesuree_cm": 14.49,
+        "hauteur_mesuree_cm": 19.47,
+        "erreur_cm": 0.44,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          353,
+          1516,
+          230,
+          309
+        ]
+      },
+      {
+        "piece_reference": "LOW TEAR",
+        "largeur_attendue_cm": 4.6,
+        "hauteur_attendue_cm": 17.7,
+        "largeur_mesuree_cm": 3.09,
+        "hauteur_mesuree_cm": 18.96,
+        "erreur_cm": 1.51,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          143,
+          168,
+          49,
+          301
+        ]
+      },
+      {
+        "piece_reference": "LOW TEAR",
+        "largeur_attendue_cm": 4.6,
+        "hauteur_attendue_cm": 17.7,
+        "largeur_mesuree_cm": 2.65,
+        "hauteur_mesuree_cm": 16.95,
+        "erreur_cm": 1.95,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          346,
+          490,
+          42,
+          269
+        ]
+      },
+      {
+        "piece_reference": "ENF DVT",
+        "largeur_attendue_cm": 9.91,
+        "hauteur_attendue_cm": 20.7,
+        "largeur_mesuree_cm": 9.89,
+        "hauteur_mesuree_cm": 22.68,
+        "erreur_cm": 1.98,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          347,
+          1792,
+          157,
+          360
+        ]
+      },
+      {
+        "piece_reference": "REH1",
+        "largeur_attendue_cm": 8.73,
+        "hauteur_attendue_cm": 28.1,
+        "largeur_mesuree_cm": 8.57,
+        "hauteur_mesuree_cm": 26.02,
+        "erreur_cm": 2.08,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          2897,
+          1411,
+          136,
+          413
+        ]
+      },
+      {
+        "piece_reference": "P DOS",
+        "largeur_attendue_cm": 19.84,
+        "hauteur_attendue_cm": 19.4,
+        "largeur_mesuree_cm": 22.3,
+        "hauteur_mesuree_cm": 23.06,
+        "erreur_cm": 3.66,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          579,
+          1079,
+          354,
+          366
+        ]
+      },
+      {
+        "piece_reference": "ENF DVT",
+        "largeur_attendue_cm": 9.91,
+        "hauteur_attendue_cm": 20.7,
+        "largeur_mesuree_cm": 7.12,
+        "hauteur_mesuree_cm": 16.82,
+        "erreur_cm": 3.88,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          3682,
+          27,
+          113,
+          267
+        ]
+      },
+      {
+        "piece_reference": "P DOS",
+        "largeur_attendue_cm": 19.84,
+        "hauteur_attendue_cm": 19.4,
+        "largeur_mesuree_cm": 24.44,
+        "hauteur_mesuree_cm": 20.48,
+        "erreur_cm": 4.6,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          1118,
+          1099,
+          388,
+          325
+        ]
+      },
+      {
+        "piece_reference": "CEINT",
+        "largeur_attendue_cm": 6.34,
+        "hauteur_attendue_cm": 109.43,
+        "largeur_mesuree_cm": 12.66,
+        "hauteur_mesuree_cm": 109.62,
+        "erreur_cm": 6.32,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          143,
+          473,
+          201,
+          1740
+        ]
+      },
+      {
+        "piece_reference": "CEINT",
+        "largeur_attendue_cm": 6.34,
+        "hauteur_attendue_cm": 109.43,
+        "largeur_mesuree_cm": 12.79,
+        "hauteur_mesuree_cm": 108.74,
+        "erreur_cm": 6.45,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          3797,
+          27,
+          203,
+          1726
+        ]
+      },
+      {
+        "piece_reference": "PARM1",
+        "largeur_attendue_cm": 14.08,
+        "hauteur_attendue_cm": 19.91,
+        "largeur_mesuree_cm": 12.66,
+        "hauteur_mesuree_cm": 11.84,
+        "erreur_cm": 8.07,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          143,
+          2201,
+          201,
+          188
+        ]
+      },
+      {
+        "piece_reference": "ENF DVT",
+        "largeur_attendue_cm": 9.91,
+        "hauteur_attendue_cm": 20.7,
+        "largeur_mesuree_cm": 11.47,
+        "hauteur_mesuree_cm": 8.76,
+        "erreur_cm": 11.94,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          1664,
+          1140,
+          182,
+          139
+        ]
+      },
+      {
+        "piece_reference": "ENF DVT",
+        "largeur_attendue_cm": 9.91,
+        "hauteur_attendue_cm": 20.7,
+        "largeur_mesuree_cm": 3.28,
+        "hauteur_mesuree_cm": 8.25,
+        "erreur_cm": 12.45,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          597,
+          619,
+          52,
+          131
+        ]
+      },
+      {
+        "piece_reference": "PASS",
+        "largeur_attendue_cm": 102.31,
+        "hauteur_attendue_cm": 3.5,
+        "largeur_mesuree_cm": 96.01,
+        "hauteur_mesuree_cm": 27.91,
+        "erreur_cm": 24.41,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          1723,
+          1891,
+          1524,
+          443
+        ]
+      },
+      {
+        "piece_reference": "PASS",
+        "largeur_attendue_cm": 102.31,
+        "hauteur_attendue_cm": 3.5,
+        "largeur_mesuree_cm": 61.24,
+        "hauteur_mesuree_cm": 4.03,
+        "erreur_cm": 41.07,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          1116,
+          83,
+          972,
+          64
+        ]
+      },
+      {
+        "piece_reference": "CEINT",
+        "largeur_attendue_cm": 6.34,
+        "hauteur_attendue_cm": 109.43,
+        "largeur_mesuree_cm": 27.03,
+        "hauteur_mesuree_cm": 20.48,
+        "erreur_cm": 88.95,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          2939,
+          1452,
+          429,
+          325
+        ]
+      },
+      {
+        "piece_reference": "CEINT",
+        "largeur_attendue_cm": 6.34,
+        "hauteur_attendue_cm": 109.43,
+        "largeur_mesuree_cm": 12.54,
+        "hauteur_mesuree_cm": 7.25,
+        "erreur_cm": 102.18,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          3799,
+          1756,
+          199,
+          115
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 11.34,
+        "hauteur_mesuree_cm": 2.9,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          451,
+          2342,
+          180,
+          46
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 9.7,
+        "hauteur_mesuree_cm": 4.03,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          1647,
+          1906,
+          154,
+          64
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 7.81,
+        "hauteur_mesuree_cm": 2.84,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          2301,
+          906,
+          124,
+          45
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 9.14,
+        "hauteur_mesuree_cm": 3.02,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          2431,
+          895,
+          145,
+          48
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 10.84,
+        "hauteur_mesuree_cm": 2.21,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          1801,
+          669,
+          172,
+          35
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 25.26,
+        "hauteur_mesuree_cm": 3.47,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          1128,
+          585,
+          401,
+          55
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 11.34,
+        "hauteur_mesuree_cm": 2.58,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          1587,
+          576,
+          180,
+          41
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 18.4,
+        "hauteur_mesuree_cm": 4.16,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          3502,
+          454,
+          292,
+          66
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 21.36,
+        "hauteur_mesuree_cm": 3.4,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          2772,
+          441,
+          339,
+          54
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 252.0,
+        "hauteur_mesuree_cm": 152.27,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          0,
+          0,
+          4000,
+          2417
+        ]
+      }
+    ]
+  },
+  "Tracee3": {
+    "tracee": "Tracee3",
+    "code_modele": "01461170745CD-A1",
+    "checkpoint_utilise": "..\\models\\saved\\unet_fold_Tracee3_best.pt",
+    "n_pieces_reference": 23,
+    "n_conformes": 15,
+    "n_non_conformes": 8,
+    "n_manquantes": 0,
+    "n_inattendues": 18,
+    "taux_conformite_global": 0.6522,
+    "temps_total_s": 7.22,
+    "rapport_detaille": [
+      {
+        "piece_reference": "SPP",
+        "largeur_attendue_cm": 20.72,
+        "hauteur_attendue_cm": 10.92,
+        "largeur_mesuree_cm": 20.6,
+        "hauteur_mesuree_cm": 10.84,
+        "erreur_cm": 0.12,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          1756,
+          1993,
+          513,
+          270
+        ]
+      },
+      {
+        "piece_reference": "REH 22",
+        "largeur_attendue_cm": 10.56,
+        "hauteur_attendue_cm": 26.22,
+        "largeur_mesuree_cm": 10.48,
+        "hauteur_mesuree_cm": 26.06,
+        "erreur_cm": 0.16,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          490,
+          724,
+          261,
+          649
+        ]
+      },
+      {
+        "piece_reference": "PRM",
+        "largeur_attendue_cm": 18.71,
+        "hauteur_attendue_cm": 18.41,
+        "largeur_mesuree_cm": 18.59,
+        "hauteur_mesuree_cm": 18.23,
+        "erreur_cm": 0.18,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          1301,
+          1906,
+          463,
+          454
+        ]
+      },
+      {
+        "piece_reference": "PRM",
+        "largeur_attendue_cm": 18.71,
+        "hauteur_attendue_cm": 18.41,
+        "largeur_mesuree_cm": 18.67,
+        "hauteur_mesuree_cm": 18.23,
+        "erreur_cm": 0.18,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          1625,
+          818,
+          465,
+          454
+        ]
+      },
+      {
+        "piece_reference": "REH",
+        "largeur_attendue_cm": 10.68,
+        "hauteur_attendue_cm": 26.22,
+        "largeur_mesuree_cm": 10.52,
+        "hauteur_mesuree_cm": 26.02,
+        "erreur_cm": 0.2,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          736,
+          662,
+          262,
+          648
+        ]
+      },
+      {
+        "piece_reference": "PCH TICK",
+        "largeur_attendue_cm": 13.81,
+        "hauteur_attendue_cm": 11.04,
+        "largeur_mesuree_cm": 13.61,
+        "hauteur_mesuree_cm": 11.0,
+        "erreur_cm": 0.2,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          2714,
+          2882,
+          339,
+          274
+        ]
+      },
+      {
+        "piece_reference": "PCH DS",
+        "largeur_attendue_cm": 20.74,
+        "hauteur_attendue_cm": 19.33,
+        "largeur_mesuree_cm": 20.52,
+        "hauteur_mesuree_cm": 19.15,
+        "erreur_cm": 0.22,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          1112,
+          712,
+          511,
+          477
+        ]
+      },
+      {
+        "piece_reference": "PCH DS",
+        "largeur_attendue_cm": 20.74,
+        "hauteur_attendue_cm": 19.33,
+        "largeur_mesuree_cm": 20.48,
+        "hauteur_mesuree_cm": 19.15,
+        "erreur_cm": 0.26,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          2684,
+          762,
+          510,
+          477
+        ]
+      },
+      {
+        "piece_reference": "DOS2",
+        "largeur_attendue_cm": 110.07,
+        "hauteur_attendue_cm": 41.8,
+        "largeur_mesuree_cm": 109.94,
+        "hauteur_mesuree_cm": 41.52,
+        "erreur_cm": 0.28,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          452,
+          2892,
+          2738,
+          1034
+        ]
+      },
+      {
+        "piece_reference": "PATCH",
+        "largeur_attendue_cm": 5.61,
+        "hauteur_attendue_cm": 5.58,
+        "largeur_mesuree_cm": 5.18,
+        "hauteur_mesuree_cm": 5.3,
+        "erreur_cm": 0.43,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          3060,
+          2531,
+          129,
+          132
+        ]
+      },
+      {
+        "piece_reference": "PATCH",
+        "largeur_attendue_cm": 5.61,
+        "hauteur_attendue_cm": 5.58,
+        "largeur_mesuree_cm": 5.14,
+        "hauteur_mesuree_cm": 5.06,
+        "erreur_cm": 0.52,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          3060,
+          2728,
+          128,
+          126
+        ]
+      },
+      {
+        "piece_reference": "CEINT",
+        "largeur_attendue_cm": 11.2,
+        "hauteur_attendue_cm": 107.46,
+        "largeur_mesuree_cm": 10.6,
+        "hauteur_mesuree_cm": 107.62,
+        "erreur_cm": 0.6,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          224,
+          620,
+          264,
+          2680
+        ]
+      },
+      {
+        "piece_reference": "BRAG",
+        "largeur_attendue_cm": 20.48,
+        "hauteur_attendue_cm": 6.22,
+        "largeur_mesuree_cm": 20.24,
+        "hauteur_mesuree_cm": 5.18,
+        "erreur_cm": 1.04,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          2688,
+          2173,
+          504,
+          129
+        ]
+      },
+      {
+        "piece_reference": "DVT",
+        "largeur_attendue_cm": 108.62,
+        "hauteur_attendue_cm": 30.44,
+        "largeur_mesuree_cm": 107.37,
+        "hauteur_mesuree_cm": 30.08,
+        "erreur_cm": 1.25,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          490,
+          2132,
+          2674,
+          749
+        ]
+      },
+      {
+        "piece_reference": "DOS",
+        "largeur_attendue_cm": 110.43,
+        "hauteur_attendue_cm": 41.36,
+        "largeur_mesuree_cm": 108.3,
+        "hauteur_mesuree_cm": 41.56,
+        "erreur_cm": 2.13,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          496,
+          1,
+          2697,
+          1035
+        ]
+      },
+      {
+        "piece_reference": "DVT2",
+        "largeur_attendue_cm": 108.94,
+        "hauteur_attendue_cm": 30.48,
+        "largeur_mesuree_cm": 108.54,
+        "hauteur_mesuree_cm": 34.05,
+        "erreur_cm": 3.57,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          490,
+          1274,
+          2703,
+          848
+        ]
+      },
+      {
+        "piece_reference": "PATCH",
+        "largeur_attendue_cm": 5.61,
+        "hauteur_attendue_cm": 5.58,
+        "largeur_mesuree_cm": 5.7,
+        "hauteur_mesuree_cm": 9.36,
+        "erreur_cm": 3.78,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          2609,
+          805,
+          142,
+          233
+        ]
+      },
+      {
+        "piece_reference": "PATCH",
+        "largeur_attendue_cm": 5.61,
+        "hauteur_attendue_cm": 5.58,
+        "largeur_mesuree_cm": 5.5,
+        "hauteur_mesuree_cm": 9.8,
+        "erreur_cm": 4.22,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          3009,
+          2675,
+          137,
+          244
+        ]
+      },
+      {
+        "piece_reference": "PATCH",
+        "largeur_attendue_cm": 5.61,
+        "hauteur_attendue_cm": 5.58,
+        "largeur_mesuree_cm": 5.86,
+        "hauteur_mesuree_cm": 10.0,
+        "erreur_cm": 4.42,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          3043,
+          2870,
+          146,
+          249
+        ]
+      },
+      {
+        "piece_reference": "PATCH",
+        "largeur_attendue_cm": 5.61,
+        "hauteur_attendue_cm": 5.58,
+        "largeur_mesuree_cm": 6.34,
+        "hauteur_mesuree_cm": 10.44,
+        "erreur_cm": 4.86,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          2611,
+          2882,
+          158,
+          260
+        ]
+      },
+      {
+        "piece_reference": "PATCH",
+        "largeur_attendue_cm": 5.61,
+        "hauteur_attendue_cm": 5.58,
+        "largeur_mesuree_cm": 12.53,
+        "hauteur_mesuree_cm": 3.01,
+        "erreur_cm": 6.92,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          584,
+          1298,
+          312,
+          75
+        ]
+      },
+      {
+        "piece_reference": "PATCH",
+        "largeur_attendue_cm": 5.61,
+        "hauteur_attendue_cm": 5.58,
+        "largeur_mesuree_cm": 7.47,
+        "hauteur_mesuree_cm": 14.42,
+        "erreur_cm": 8.84,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          3010,
+          1375,
+          186,
+          359
+        ]
+      },
+      {
+        "piece_reference": "PASSANT",
+        "largeur_attendue_cm": 92.48,
+        "hauteur_attendue_cm": 4.1,
+        "largeur_mesuree_cm": 83.96,
+        "hauteur_mesuree_cm": 16.06,
+        "erreur_cm": 11.96,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          490,
+          2884,
+          2091,
+          400
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 119.34,
+        "hauteur_mesuree_cm": 0.56,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          224,
+          3986,
+          2972,
+          14
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 119.34,
+        "hauteur_mesuree_cm": 27.27,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          224,
+          3303,
+          2972,
+          679
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 15.86,
+        "hauteur_mesuree_cm": 8.43,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          2801,
+          3067,
+          395,
+          210
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 17.67,
+        "hauteur_mesuree_cm": 3.13,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          1756,
+          2266,
+          440,
+          78
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 21.04,
+        "hauteur_mesuree_cm": 10.52,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          2672,
+          2012,
+          524,
+          262
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 15.14,
+        "hauteur_mesuree_cm": 10.6,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          2272,
+          1996,
+          377,
+          264
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 17.35,
+        "hauteur_mesuree_cm": 3.53,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          2760,
+          1954,
+          432,
+          88
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 19.68,
+        "hauteur_mesuree_cm": 12.61,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          1712,
+          1908,
+          490,
+          314
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 42.44,
+        "hauteur_mesuree_cm": 23.77,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          490,
+          1832,
+          1057,
+          592
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 43.57,
+        "hauteur_mesuree_cm": 17.31,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          2037,
+          841,
+          1085,
+          431
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 17.79,
+        "hauteur_mesuree_cm": 4.66,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          1602,
+          714,
+          443,
+          116
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 39.35,
+        "hauteur_mesuree_cm": 24.25,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          850,
+          668,
+          980,
+          604
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 15.78,
+        "hauteur_mesuree_cm": 5.22,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          2801,
+          644,
+          393,
+          130
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 10.52,
+        "hauteur_mesuree_cm": 22.37,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          491,
+          643,
+          262,
+          557
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 1.93,
+        "hauteur_mesuree_cm": 24.41,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          449,
+          8,
+          48,
+          608
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 2.97,
+        "hauteur_mesuree_cm": 24.7,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          3122,
+          0,
+          74,
+          615
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 8.91,
+        "hauteur_mesuree_cm": 24.74,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          224,
+          0,
+          222,
+          616
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 8.87,
+        "hauteur_mesuree_cm": 160.62,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          0,
+          0,
+          221,
+          4000
+        ]
+      }
+    ]
+  },
+  "Tracee4": {
+    "tracee": "Tracee4",
+    "code_modele": "01110170919CD-A",
+    "checkpoint_utilise": "..\\models\\saved\\unet_fold_Tracee4_best.pt",
+    "n_pieces_reference": 37,
+    "n_conformes": 28,
+    "n_non_conformes": 9,
+    "n_manquantes": 0,
+    "n_inattendues": 24,
+    "taux_conformite_global": 0.7568,
+    "temps_total_s": 9.16,
+    "rapport_detaille": [
+      {
+        "piece_reference": "PARM DVT",
+        "largeur_attendue_cm": 45.3,
+        "hauteur_attendue_cm": 6.65,
+        "largeur_mesuree_cm": 45.26,
+        "hauteur_mesuree_cm": 6.65,
+        "erreur_cm": 0.04,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          2525,
+          0,
+          1218,
+          179
+        ]
+      },
+      {
+        "piece_reference": "DEC2 DVT",
+        "largeur_attendue_cm": 37.77,
+        "hauteur_attendue_cm": 11.11,
+        "largeur_mesuree_cm": 37.83,
+        "hauteur_mesuree_cm": 11.07,
+        "erreur_cm": 0.06,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          2019,
+          2679,
+          1018,
+          298
+        ]
+      },
+      {
+        "piece_reference": "PARM DVT",
+        "largeur_attendue_cm": 45.3,
+        "hauteur_attendue_cm": 6.65,
+        "largeur_mesuree_cm": 45.33,
+        "hauteur_mesuree_cm": 6.58,
+        "erreur_cm": 0.07,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          2551,
+          182,
+          1220,
+          177
+        ]
+      },
+      {
+        "piece_reference": "DOS",
+        "largeur_attendue_cm": 39.31,
+        "hauteur_attendue_cm": 31.73,
+        "largeur_mesuree_cm": 39.39,
+        "hauteur_mesuree_cm": 31.73,
+        "erreur_cm": 0.08,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          2529,
+          812,
+          1060,
+          854
+        ]
+      },
+      {
+        "piece_reference": "P POIT",
+        "largeur_attendue_cm": 13.9,
+        "hauteur_attendue_cm": 12.89,
+        "largeur_mesuree_cm": 13.82,
+        "hauteur_mesuree_cm": 12.93,
+        "erreur_cm": 0.08,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          932,
+          1582,
+          372,
+          348
+        ]
+      },
+      {
+        "piece_reference": "SAC DE POCHE",
+        "largeur_attendue_cm": 19.73,
+        "hauteur_attendue_cm": 22.02,
+        "largeur_mesuree_cm": 19.62,
+        "hauteur_mesuree_cm": 22.0,
+        "erreur_cm": 0.11,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          1961,
+          2146,
+          528,
+          592
+        ]
+      },
+      {
+        "piece_reference": "P MANCHE",
+        "largeur_attendue_cm": 56.08,
+        "hauteur_attendue_cm": 16.5,
+        "largeur_mesuree_cm": 56.0,
+        "hauteur_mesuree_cm": 16.35,
+        "erreur_cm": 0.15,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          242,
+          3540,
+          1507,
+          440
+        ]
+      },
+      {
+        "piece_reference": "DVT COT",
+        "largeur_attendue_cm": 35.56,
+        "hauteur_attendue_cm": 19.1,
+        "largeur_mesuree_cm": 35.45,
+        "hauteur_mesuree_cm": 18.91,
+        "erreur_cm": 0.19,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          588,
+          3067,
+          954,
+          509
+        ]
+      },
+      {
+        "piece_reference": "DOS HAUT1",
+        "largeur_attendue_cm": 18.32,
+        "hauteur_attendue_cm": 48.53,
+        "largeur_mesuree_cm": 18.13,
+        "hauteur_mesuree_cm": 48.38,
+        "erreur_cm": 0.19,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          3475,
+          399,
+          488,
+          1302
+        ]
+      },
+      {
+        "piece_reference": "DEC DVT",
+        "largeur_attendue_cm": 35.52,
+        "hauteur_attendue_cm": 12.52,
+        "largeur_mesuree_cm": 35.45,
+        "hauteur_mesuree_cm": 12.3,
+        "erreur_cm": 0.22,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          589,
+          2424,
+          954,
+          331
+        ]
+      },
+      {
+        "piece_reference": "DVT HAUT",
+        "largeur_attendue_cm": 19.9,
+        "hauteur_attendue_cm": 26.61,
+        "largeur_mesuree_cm": 19.69,
+        "hauteur_mesuree_cm": 26.38,
+        "erreur_cm": 0.23,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          1996,
+          682,
+          530,
+          710
+        ]
+      },
+      {
+        "piece_reference": "RABAT P PC",
+        "largeur_attendue_cm": 7.62,
+        "hauteur_attendue_cm": 12.63,
+        "largeur_mesuree_cm": 7.39,
+        "hauteur_mesuree_cm": 12.49,
+        "erreur_cm": 0.23,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          3766,
+          2,
+          199,
+          336
+        ]
+      },
+      {
+        "piece_reference": "POIGNET",
+        "largeur_attendue_cm": 12.89,
+        "hauteur_attendue_cm": 75.8,
+        "largeur_mesuree_cm": 12.63,
+        "hauteur_mesuree_cm": 75.54,
+        "erreur_cm": 0.26,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          588,
+          26,
+          340,
+          2033
+        ]
+      },
+      {
+        "piece_reference": "DEC2 DVT",
+        "largeur_attendue_cm": 37.77,
+        "hauteur_attendue_cm": 11.11,
+        "largeur_mesuree_cm": 37.42,
+        "hauteur_mesuree_cm": 11.04,
+        "erreur_cm": 0.35,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          1920,
+          2918,
+          1007,
+          297
+        ]
+      },
+      {
+        "piece_reference": "CEINT",
+        "largeur_attendue_cm": 13.19,
+        "hauteur_attendue_cm": 130.76,
+        "largeur_mesuree_cm": 12.78,
+        "hauteur_mesuree_cm": 130.54,
+        "erreur_cm": 0.41,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          242,
+          63,
+          344,
+          3513
+        ]
+      },
+      {
+        "piece_reference": "DOS HAUT",
+        "largeur_attendue_cm": 18.43,
+        "hauteur_attendue_cm": 49.98,
+        "largeur_mesuree_cm": 18.17,
+        "hauteur_mesuree_cm": 49.31,
+        "erreur_cm": 0.67,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          1546,
+          2437,
+          489,
+          1327
+        ]
+      },
+      {
+        "piece_reference": "COL2",
+        "largeur_attendue_cm": 12.93,
+        "hauteur_attendue_cm": 51.13,
+        "largeur_mesuree_cm": 13.71,
+        "hauteur_mesuree_cm": 50.94,
+        "erreur_cm": 0.78,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          3594,
+          2609,
+          369,
+          1371
+        ]
+      },
+      {
+        "piece_reference": "RABAT P POIT",
+        "largeur_attendue_cm": 7.51,
+        "hauteur_attendue_cm": 12.81,
+        "largeur_mesuree_cm": 6.39,
+        "hauteur_mesuree_cm": 12.23,
+        "erreur_cm": 1.12,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          3791,
+          3651,
+          172,
+          329
+        ]
+      },
+      {
+        "piece_reference": "GR MANCHE",
+        "largeur_attendue_cm": 60.33,
+        "hauteur_attendue_cm": 33.14,
+        "largeur_mesuree_cm": 60.12,
+        "hauteur_mesuree_cm": 31.92,
+        "erreur_cm": 1.22,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          2017,
+          3094,
+          1618,
+          859
+        ]
+      },
+      {
+        "piece_reference": "DVT COT",
+        "largeur_attendue_cm": 35.56,
+        "hauteur_attendue_cm": 19.1,
+        "largeur_mesuree_cm": 35.41,
+        "hauteur_mesuree_cm": 17.69,
+        "erreur_cm": 1.41,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          2549,
+          362,
+          953,
+          476
+        ]
+      },
+      {
+        "piece_reference": "LOOP",
+        "largeur_attendue_cm": 26.94,
+        "hauteur_attendue_cm": 3.64,
+        "largeur_mesuree_cm": 25.38,
+        "hauteur_mesuree_cm": 2.56,
+        "erreur_cm": 1.56,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          2061,
+          3171,
+          683,
+          69
+        ]
+      },
+      {
+        "piece_reference": "DVT HAUT",
+        "largeur_attendue_cm": 19.9,
+        "hauteur_attendue_cm": 26.61,
+        "largeur_mesuree_cm": 19.62,
+        "hauteur_mesuree_cm": 28.35,
+        "erreur_cm": 1.74,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          2465,
+          1916,
+          528,
+          763
+        ]
+      },
+      {
+        "piece_reference": "GR MANCHE",
+        "largeur_attendue_cm": 60.33,
+        "hauteur_attendue_cm": 33.14,
+        "largeur_mesuree_cm": 60.2,
+        "hauteur_mesuree_cm": 31.36,
+        "erreur_cm": 1.78,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          930,
+          9,
+          1620,
+          844
+        ]
+      },
+      {
+        "piece_reference": "P POIT",
+        "largeur_attendue_cm": 13.9,
+        "hauteur_attendue_cm": 12.89,
+        "largeur_mesuree_cm": 15.9,
+        "hauteur_mesuree_cm": 12.3,
+        "erreur_cm": 2.0,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          589,
+          2758,
+          428,
+          331
+        ]
+      },
+      {
+        "piece_reference": "RABAT P POIT",
+        "largeur_attendue_cm": 7.51,
+        "hauteur_attendue_cm": 12.81,
+        "largeur_mesuree_cm": 7.65,
+        "hauteur_mesuree_cm": 10.66,
+        "erreur_cm": 2.15,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          3514,
+          3693,
+          206,
+          287
+        ]
+      },
+      {
+        "piece_reference": "DEC DVT",
+        "largeur_attendue_cm": 35.52,
+        "hauteur_attendue_cm": 12.52,
+        "largeur_mesuree_cm": 33.29,
+        "hauteur_mesuree_cm": 10.18,
+        "erreur_cm": 2.34,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          618,
+          2788,
+          896,
+          274
+        ]
+      },
+      {
+        "piece_reference": "RABAT P POIT",
+        "largeur_attendue_cm": 7.51,
+        "hauteur_attendue_cm": 12.81,
+        "largeur_mesuree_cm": 5.05,
+        "hauteur_mesuree_cm": 15.27,
+        "erreur_cm": 2.46,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          1994,
+          1015,
+          136,
+          411
+        ]
+      },
+      {
+        "piece_reference": "LEVRE",
+        "largeur_attendue_cm": 17.54,
+        "hauteur_attendue_cm": 8.27,
+        "largeur_mesuree_cm": 19.32,
+        "hauteur_mesuree_cm": 11.0,
+        "erreur_cm": 2.73,
+        "verdict": "CONFORME",
+        "bbox_px": [
+          1023,
+          2759,
+          520,
+          296
+        ]
+      },
+      {
+        "piece_reference": "P MANCHE",
+        "largeur_attendue_cm": 56.08,
+        "hauteur_attendue_cm": 16.5,
+        "largeur_mesuree_cm": 56.07,
+        "hauteur_mesuree_cm": 20.77,
+        "erreur_cm": 4.27,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          588,
+          1933,
+          1509,
+          559
+        ]
+      },
+      {
+        "piece_reference": "COT DOS",
+        "largeur_attendue_cm": 39.63,
+        "hauteur_attendue_cm": 24.6,
+        "largeur_mesuree_cm": 43.59,
+        "hauteur_mesuree_cm": 19.51,
+        "erreur_cm": 5.09,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          1552,
+          3455,
+          1173,
+          525
+        ]
+      },
+      {
+        "piece_reference": "LEVRE",
+        "largeur_attendue_cm": 17.54,
+        "hauteur_attendue_cm": 8.27,
+        "largeur_mesuree_cm": 22.7,
+        "hauteur_mesuree_cm": 10.59,
+        "erreur_cm": 5.16,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          1920,
+          1945,
+          611,
+          285
+        ]
+      },
+      {
+        "piece_reference": "SAC DE POCHE",
+        "largeur_attendue_cm": 19.73,
+        "hauteur_attendue_cm": 22.02,
+        "largeur_mesuree_cm": 14.57,
+        "hauteur_mesuree_cm": 15.57,
+        "erreur_cm": 6.45,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          2221,
+          401,
+          392,
+          419
+        ]
+      },
+      {
+        "piece_reference": "COT DOS",
+        "largeur_attendue_cm": 39.63,
+        "hauteur_attendue_cm": 24.6,
+        "largeur_mesuree_cm": 39.39,
+        "hauteur_mesuree_cm": 31.4,
+        "erreur_cm": 6.8,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          931,
+          739,
+          1060,
+          845
+        ]
+      },
+      {
+        "piece_reference": "P DE COL",
+        "largeur_attendue_cm": 6.24,
+        "hauteur_attendue_cm": 34.71,
+        "largeur_mesuree_cm": 16.5,
+        "hauteur_mesuree_cm": 36.08,
+        "erreur_cm": 10.26,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          3519,
+          1662,
+          444,
+          971
+        ]
+      },
+      {
+        "piece_reference": "P DE COL2",
+        "largeur_attendue_cm": 6.17,
+        "hauteur_attendue_cm": 31.81,
+        "largeur_mesuree_cm": 5.46,
+        "hauteur_mesuree_cm": 16.28,
+        "erreur_cm": 15.53,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          1887,
+          3344,
+          147,
+          438
+        ]
+      },
+      {
+        "piece_reference": "LICHETTE",
+        "largeur_attendue_cm": 5.46,
+        "hauteur_attendue_cm": 36.23,
+        "largeur_mesuree_cm": 3.34,
+        "hauteur_mesuree_cm": 14.68,
+        "erreur_cm": 21.55,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          3524,
+          3152,
+          90,
+          395
+        ]
+      },
+      {
+        "piece_reference": "COL1",
+        "largeur_attendue_cm": 13.41,
+        "hauteur_attendue_cm": 51.8,
+        "largeur_mesuree_cm": 46.71,
+        "hauteur_mesuree_cm": 75.14,
+        "erreur_cm": 33.3,
+        "verdict": "NON CONFORME",
+        "bbox_px": [
+          2402,
+          1380,
+          1257,
+          2022
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 61.61,
+        "hauteur_mesuree_cm": 0.59,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          1663,
+          3984,
+          1658,
+          16
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 33.15,
+        "hauteur_mesuree_cm": 0.59,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          257,
+          3984,
+          892,
+          16
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 37.27,
+        "hauteur_mesuree_cm": 2.12,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          2511,
+          3923,
+          1003,
+          57
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 35.56,
+        "hauteur_mesuree_cm": 3.31,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          242,
+          3891,
+          957,
+          89
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 19.14,
+        "hauteur_mesuree_cm": 1.93,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          937,
+          3516,
+          515,
+          52
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 2.82,
+        "hauteur_mesuree_cm": 6.91,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          3228,
+          3076,
+          76,
+          186
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 7.62,
+        "hauteur_mesuree_cm": 8.73,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          1338,
+          3052,
+          205,
+          235
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 5.02,
+        "hauteur_mesuree_cm": 3.05,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          2754,
+          3028,
+          135,
+          82
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 6.76,
+        "hauteur_mesuree_cm": 7.54,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          3036,
+          2925,
+          182,
+          203
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 3.72,
+        "hauteur_mesuree_cm": 8.55,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          2921,
+          2921,
+          100,
+          230
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 11.11,
+        "hauteur_mesuree_cm": 2.01,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          2490,
+          2652,
+          299,
+          54
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 29.06,
+        "hauteur_mesuree_cm": 2.45,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          978,
+          2412,
+          782,
+          66
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 3.9,
+        "hauteur_mesuree_cm": 14.64,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          3630,
+          2405,
+          105,
+          394
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 14.08,
+        "hauteur_mesuree_cm": 2.27,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          895,
+          2028,
+          379,
+          61
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 1.86,
+        "hauteur_mesuree_cm": 11.04,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          2402,
+          1367,
+          50,
+          297
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 49.01,
+        "hauteur_mesuree_cm": 24.45,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          1080,
+          1366,
+          1319,
+          658
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 40.47,
+        "hauteur_mesuree_cm": 10.0,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          1119,
+          708,
+          1089,
+          269
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 31.36,
+        "hauteur_mesuree_cm": 11.93,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          2745,
+          652,
+          844,
+          321
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 31.18,
+        "hauteur_mesuree_cm": 10.0,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          3124,
+          219,
+          839,
+          269
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 15.01,
+        "hauteur_mesuree_cm": 0.93,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          3328,
+          183,
+          404,
+          25
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 3.49,
+        "hauteur_mesuree_cm": 6.28,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          3746,
+          0,
+          94,
+          169
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 35.9,
+        "hauteur_mesuree_cm": 2.53,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          931,
+          0,
+          966,
+          68
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 12.75,
+        "hauteur_mesuree_cm": 2.23,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          242,
+          0,
+          343,
+          60
+        ]
+      },
+      {
+        "piece_reference": null,
+        "largeur_attendue_cm": null,
+        "hauteur_attendue_cm": null,
+        "largeur_mesuree_cm": 8.88,
+        "hauteur_mesuree_cm": 148.64,
+        "erreur_cm": null,
+        "verdict": "INATTENDUE",
+        "bbox_px": [
+          0,
+          0,
+          239,
+          4000
+        ]
+      }
+    ]
+  }
+}

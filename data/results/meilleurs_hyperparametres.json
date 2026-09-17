@@ -1,0 +1,11 @@
+{
+  "learning_rate": 0.0003,
+  "optimizer": "rmsprop",
+  "weight_decay": 0.0,
+  "dice_weight": 0.7,
+  "bce_weight": 0.3,
+  "batch_size": 4,
+  "fold_utilise_pour_la_recherche": "Tracee1",
+  "search_epochs": 10,
+  "best_valid_loss_trouvee": 0.18124456363064903
+}

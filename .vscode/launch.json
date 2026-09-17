@@ -1,0 +1,32 @@
+{
+    // Utilisez IntelliSense pour en savoir plus sur les attributs possibles.
+    // Pointez pour afficher la description des attributs existants.
+    // Pour plus d'informations, visitez : https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Open annotation_tool_tracee1.html",
+            "file": "${workspaceFolder}/tools/annotation/annotation_tool_tracee1.html"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Open annotation_tool_tracee2.html",
+            "file": "${workspaceFolder}/tools/annotation/annotation_tool_tracee2.html"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Open annotation_tool_tracee3.html",
+            "file": "${workspaceFolder}/tools/annotation/annotation_tool_tracee3.html"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Open annotation_tool_tracee4.html",
+            "file": "${workspaceFolder}/tools/annotation/annotation_tool_tracee4.html"
+        }
+    ]
+}
